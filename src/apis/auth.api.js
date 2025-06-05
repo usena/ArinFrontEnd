@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = `http://localhost:5000/services/auth`
+const URL = `${import.meta.env.VITE_API_URL}/service/auth`
 
 export const tokenIsVerified = async () => {
     try {
