@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = `http://localhost:5000/services/user`
+const URL = `${import.meta.env.VITE_API_URL}/service/user`
 const token = localStorage.getItem('token')
 console.log(token)
 
